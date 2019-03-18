@@ -1,7 +1,7 @@
+var password = require('./modules/password');
 var inquirer = require('inquirer');
 var figlet = require('figlet');
 require('colors');
-var password = require('./modules/password');
 
 //Title
 figlet("Password Genr8r", (err, data) => {
@@ -21,7 +21,7 @@ figlet("Password Genr8r", (err, data) => {
         var choice = answers.choice;
         switch (choice) {
             case "Create a password":
-                password();  //invoke imported function
+                password();
                 break;
             case "Exit":
                 break;

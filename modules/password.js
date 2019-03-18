@@ -16,5 +16,4 @@ var password = () => {
     console.log('********************');
 }
 
-module.exports = password();
-
+module.exports = password;
