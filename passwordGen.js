@@ -1,7 +1,7 @@
 var inquirer = require('inquirer');
 var figlet = require('figlet');
 require('colors');
-var password = require('./Logic/password');
+var password = require('./modules/password');
 
 //Title
 figlet("Password Genr8r", (err, data) => {
